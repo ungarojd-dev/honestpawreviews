@@ -141,6 +141,31 @@ nav{background:var(--nav-bg);height:60px;display:flex;align-items:center;justify
 .coming-soon{opacity:0.5;pointer-events:none;}
 .badge-soon{display:inline-block;background:var(--surface2);color:var(--text-3);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;padding:3px 10px;border-radius:999px;border:1px solid var(--border);}
 
+.btn-card-disabled {
+  display:inline-block;
+  background:var(--surface2);
+  color:var(--text-3);
+  font-weight:600;
+  font-size:13px;
+  padding:10px 20px;
+  border-radius:999px;
+  text-align:center;
+  border:1px solid var(--border);
+  cursor:default;
+}
+.hero-cta {
+  display:inline-block;
+  background:var(--gold);
+  color:#1a1208;
+  font-weight:700;
+  font-size:16px;
+  padding:15px 36px;
+  border-radius:999px;
+  text-decoration:none;
+  transition:background 0.15s;
+  margin-top:8px;
+}
+.hero-cta:hover { background:var(--gold-lt); }
 /* ABOUT STRIP */
 .about-strip{background:var(--surface);border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
 .about-inner{max-width:960px;margin:0 auto;padding:48px 20px;display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
@@ -187,6 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="trust-pill"><span class="dot"></span>Honest Results</div>
     <div class="trust-pill"><span class="dot"></span>Updated Regularly</div>
   </div>
+  <a class="hero-cta" href="/brain-training-for-dogs-review.html">See Our Latest Review</a>
 </div>
 
 <div class="section">
@@ -198,7 +224,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="review-card">
       <div class="card-tag">Dog Training</div>
-      <div class="card-title">Brain Training for Dogs vs 3 Alternatives -- 60-Day Test</div>
+      <div class="card-title">Brain Training for Dogs vs 3 Alternatives: 60-Day Test</div>
       <div class="card-desc">We worked through four of the most popular structured training programs to find out which one actually helps with anxiety-driven destructive behavior.</div>
       <div class="card-meta">
         <span>Updated May 2026</span>
@@ -209,24 +235,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="review-card coming-soon">
       <div class="card-tag">Dog Anxiety</div>
-      <div class="card-title">Dog Anxiety Solutions -- Full Comparison</div>
+      <div class="card-title">Dog Anxiety Solutions: Full Comparison</div>
       <div class="card-desc">A head-to-head comparison of the top anxiety solutions for dogs including supplements, training approaches, and behavioral tools.</div>
       <div class="card-meta">
         <span>Coming Soon</span>
         <span class="badge-soon">In Testing</span>
       </div>
-      <a class="btn-card" href="#">Coming Soon</a>
+      <span class="btn-card-disabled">Coming Soon</span>
     </div>
 
     <div class="review-card coming-soon">
       <div class="card-tag">Pet Supplements</div>
-      <div class="card-title">Dog Supplement Review -- What Is Actually Worth It</div>
+      <div class="card-title">Dog Supplement Review: What Is Actually Worth It</div>
       <div class="card-desc">We look at the most popular dog health supplements and separate the ones backed by evidence from the ones that are just expensive filler.</div>
       <div class="card-meta">
         <span>Coming Soon</span>
         <span class="badge-soon">In Testing</span>
       </div>
-      <a class="btn-card" href="#">Coming Soon</a>
+      <span class="btn-card-disabled">Coming Soon</span>
     </div>
 
   </div>
