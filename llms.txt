@@ -1,0 +1,19 @@
+# HonestPawReviews
+> Independent reviews and comparisons of dog training programs and pet health products. No paid placements. Rankings based on real testing.
+
+## Pages
+- /: Homepage -- overview of all reviews and editorial mission
+- /brain-training-for-dogs-review.html: Honest 60-day review of Brain Training for Dogs vs 3 alternatives. Covers anxiety-driven destructive behavior, separation anxiety, and recall response.
+- /about.html: About HonestPawReviews and our review methodology
+- /privacy.html: Privacy policy
+- /terms.html: Terms of use
+- /disclaimer.html: Affiliate disclaimer -- ClickBank affiliate relationship disclosed
+
+## Editorial Standards
+- No product pays for placement or positive coverage
+- All programs tested for a minimum of two weeks before ranking
+- Reviews updated when pricing or program content changes
+- Affiliate relationships disclosed on every page
+
+## Contact
+hello@honestpawreviews.com
